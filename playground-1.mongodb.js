@@ -29,6 +29,7 @@ const salesOnApril4th = db.getCollection('sales').find({
   date: { $gte: new Date('2014-04-04'), $lt: new Date('2014-04-05') }
 }).countDocuments();
 
+
 // Print a message to the output window.
 console.log(`${salesOnApril4th} sales occurred in 2014.`);
 
