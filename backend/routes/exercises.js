@@ -49,7 +49,7 @@ router.post('/update/:id', async (req, res) => {
   try {
     const exercise = await Exercise.findById(req.params.id);
     if (!exercise) return res.status(404).json({ message: "Exercise not found" });
-
+    
     exercise.username = req.body.username;
     exercise.description = req.body.description;
     exercise.duration = Number(req.body.duration);
@@ -63,4 +63,3 @@ router.post('/update/:id', async (req, res) => {
 });
 
 module.exports = router;
-
