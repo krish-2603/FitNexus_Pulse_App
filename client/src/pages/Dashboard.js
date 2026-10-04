@@ -38,7 +38,7 @@ function Dashboard() {
         {"Copyright © "}
         <Link color="inherit" href="https://material-ui.com/">
           Fitkit
-        </Link>{" "}
+        </Link>{" "}  
         {new Date().getFullYear()}
         {"."}
       </Typography>
