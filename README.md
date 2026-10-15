@@ -31,7 +31,7 @@ Fitness Activity Dashboard
 404 Error page
 ![error](https://user-images.githubusercontent.com/4997491/117525227-dcfb7680-afde-11eb-9434-a8f93c5b76d7.JPG)
 
-## Installation
+## Installation 
 
 Step 1
 🍴 Fork this repo!
