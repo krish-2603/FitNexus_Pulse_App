@@ -7,7 +7,7 @@
 // By default the first 20 documents will be returned with a cursor.
 // Use 'console.log()' to print to the debug output.
 // For more documentation on playgrounds please refer to 
-// https://www.mongodb.com/docs/mongodb-vscode/playgrounds/
+// https://www.mongodb.com/docs/mongodb-vscode/playgrounds/ 
 
 // Select the database to use.
 use('mongodbVSCodePlaygroundDB');
